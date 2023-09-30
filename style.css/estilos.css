@@ -1,3 +1,48 @@
-h{
+h1{
     color: rgb(235, 177, 19);
+    border-top: 10px ;
+}
+p{
+    color: rgb(23, 228, 235);
+    border: 25px;
+}
+ul{
+    list-style: none;
+    background-color: cadetblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    float: left;
+
+}
+li a{
+    
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(15, 200, 224);
+}
+ol{
+    list-style: none;
+}
+ol li::before{
+    content: ' Estudio Academico : ' ;
+    color: darkslategray;
+}
+div{
+    color: cornflowerblue;
+}
+p{
+    color: mediumpurple;
+}
+div{
+    border: 10px solid rgba(206, 22, 166, 0.467);
+    background-color: khaki;
 }
